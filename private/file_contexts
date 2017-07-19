@@ -63,3 +63,6 @@
 /data/dpm(/.*)?                                 u:object_r:dpmd_data_file:s0
 /data/misc/qvr(/.*)?                            u:object_r:qvrd_data_file:s0
 /data/misc/mirrorlinkserver(/.*)?               u:object_r:mirrorlink_data_file:s0
+
+# OTA packages
+/data/du_updates(/.*)?           u:object_r:ota_package_file:s0
